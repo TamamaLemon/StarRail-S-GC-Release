@@ -23,7 +23,7 @@ jobs:
 
     - name: Clone
       shell: bash
-      run: git clone --recurse-submodules https://github.com/ky-ler/StarRail-S-GC/tree/localization/chinese
+      run: git clone --recurse-submodules -b localization/chinese https://github.com/ky-ler/StarRail-S-GC
         
     - name: Build solution
       working-directory: ./StarRail-S-GC
