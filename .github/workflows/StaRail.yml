@@ -26,7 +26,7 @@ jobs:
       run: git clone --recurse-submodules https://github.com/andiabrudan/StaRail
         
     - name: Build solution
-      working-directory: ./StarRail-S-GC
+      working-directory: ./StaRail
       env:
         SOLUTION_FILE_PATH: ./HSR-GC.sln
         BUILD_CONFIGURATION: Release
